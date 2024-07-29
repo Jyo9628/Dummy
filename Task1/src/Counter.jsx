@@ -15,6 +15,7 @@ function Counter() {
   const [userinput, setuserinput] = useState("");
   const [emailinput, setemailinput] = useState("")
   const [mobinput,setmobinput]=useState("")
+  // hello
 
   const Namehandle = (e) => {
     setuserinput(e.target.value);
